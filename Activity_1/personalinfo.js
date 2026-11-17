@@ -44,21 +44,21 @@ const totalweightedgrade = totalgrade / totalSubjects;
 const computeGWA = totalweightedgrade.toFixed(2);
 
 let generalWeightedAverageLetter = "F(Failed)";
-if (computeGWA >= 98) {
+if (computeGWA >= 98 && computeGWA <= 100 ) {
     generalWeightedAverageLetter = "A";
-} else if (computeGWA >= 94) {
+} else if (computeGWA >= 94 && computeGWA <= 97) {
     generalWeightedAverageLetter = "A-";
-} else if (computeGWA >= 90) {
+} else if (computeGWA >= 90 && computeGWA <= 93) {
     generalWeightedAverageLetter = "B+";
-} else if (computeGWA >= 87) {
+} else if (computeGWA >= 87 && computeGWA <=  89) {
     generalWeightedAverageLetter = "B";
-} else if (computeGWA >= 83) {
+} else if (computeGWA >= 83 && computeGWA <= 86 ) {
     generalWeightedAverageLetter = "B-";
-} else if (computeGWA >= 80) {
+} else if (computeGWA >= 80 && computeGWA <= 82) {
     generalWeightedAverageLetter = "C+";
-} else if (computeGWA >= 77) {
+} else if (computeGWA >= 77 && computeGWA <= 79) {
     generalWeightedAverageLetter = "C";
-} else if (computeGWA >= 73) {
+} else if (computeGWA >= 73 && computeGWA <= 76) {
     generalWeightedAverageLetter = "D";
 }
 
