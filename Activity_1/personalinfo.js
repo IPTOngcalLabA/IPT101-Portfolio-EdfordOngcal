@@ -80,3 +80,5 @@ console.log(C6.CourseTitle + ": ", C6.FinalGrade);
 console.log();
 console.log("General Weighted Average: ", personalinfo.GWA);
 console.log("Letter Grade: ", personalinfo.LetterGrade);
+
+
