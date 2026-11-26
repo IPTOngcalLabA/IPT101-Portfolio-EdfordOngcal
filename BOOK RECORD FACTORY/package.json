@@ -1,0 +1,9 @@
+{
+  "name": "book-record-factory",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node libraryApp.js"
+  }
+}
